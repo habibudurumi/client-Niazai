@@ -1,0 +1,246 @@
+/** @format */
+
+html,
+body {
+  font-size: 16px;
+  /* font-family: "Poppins", sans-serif; */
+  font-weight: 300;
+}
+
+.navbar .navbar-brand {
+  padding: 0;
+}
+
+.navbar .navbar-brand img {
+  max-height: 40px;
+}
+
+@media (max-width: 992px) {
+  .navbar-nav {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .navbar-nav .nav-item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+/* contact hero section */
+.innerslider {
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin-bottom: 60px;
+  margin-top: 0px;
+}
+
+.innerslider .img-responsive {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+}
+
+.innerslider .container {
+  position: relative;
+}
+
+.slider-content {
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 30px 30px;
+  min-width: 300px;
+}
+
+.slider-content h1 {
+  font-size: 38px;
+  color: #fff;
+  margin-top: 0;
+}
+
+.slider-content ul {
+  list-style: none;
+  width: auto;
+  float: left;
+}
+.slider-content ul li {
+  float: left;
+  margin-right: 20px;
+  color: #fff;
+  position: relative;
+}
+
+.slider-content ul li:after {
+  position: absolute;
+  content: "/";
+  right: -12px;
+  top: 2px;
+  color: #fff;
+}
+
+.slider-content ul li:last-child:after {
+  content: "";
+}
+
+.slider-content ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* contact section */
+.cms-container {
+  padding-bottom: 40px;
+  background-color: #fff;
+}
+
+.page-contact {
+  float: left;
+  width: 100%;
+}
+
+.abt-cont {
+  float: left;
+  width: 100%;
+  padding: 20px 10% 60px 10%;
+  text-align: center;
+  line-height: 24px;
+}
+
+.abt-cont h2 {
+  padding: 1rem;
+}
+
+[class*="col"] {
+  position: relative;
+}
+
+p {
+  color: #000000;
+  font-size: 1em;
+  line-height: 32px;
+  padding: 1rem;
+  max-width: 850px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.cont-form label {
+  display: block;
+  text-align: left;
+  margin: 1rem 0;
+}
+
+.cont-form input {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.cont-form textarea {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.wpcf7 .screen-reader-response {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  word-wrap: normal !important;
+}
+
+.content-info a {
+  text-decoration: none;
+  color: #333;
+}
+
+.content-info a:hover {
+  color: #0056a4;
+}
+
+.contact-btn {
+  background: transparent;
+  border: none;
+  border-bottom: solid 2px #0056a4 !important;
+  padding: 0.5rem 0;
+  margin-top: 1rem;
+  display: block;
+}
+/* footer */
+.footer {
+  padding: 5rem 0;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.footer .container {
+  padding-top: 5rem;
+}
+
+.footer .footer-logo {
+  margin-bottom: 15px;
+  display: flex;
+}
+
+.footer-links li + li {
+  margin-top: 10px;
+}
+
+.footer p {
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 1.5;
+}
+.footer-links li::marker {
+  color: #fff200;
+}
+.footer h5 {
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.footer .news-box + .news-box {
+  padding-top: 20px;
+  margin-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+.footer a {
+  color: rgba(255, 255, 255, 0.7);
+  transition: ease-in-out all 0.3s;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: white;
+}
+
+.footer .copyright {
+  margin-top: 40px;
+  padding-top: 40px;
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.footer p {
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 1.5;
+  text-align: left;
+}
+
+@media (max-width: 991px) {
+  .slider-content {
+    position: relative;
+    top: 1rem;
+    display: block;
+    width: 100%;
+  }
+}

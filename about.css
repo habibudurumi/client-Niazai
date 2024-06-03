@@ -1,0 +1,175 @@
+/** @format */
+
+html,
+body {
+  font-size: 16px;
+  /* font-family: "Poppins", sans-serif; */
+  font-weight: 300;
+}
+
+.navbar .navbar-brand {
+  padding: 0;
+}
+
+.navbar .navbar-brand img {
+  max-height: 40px;
+}
+
+@media (max-width: 992px) {
+  .navbar-nav {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .navbar-nav .nav-item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+/* first section */
+.innerslider {
+  float: left;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  padding: 0;
+  margin-bottom: 60px;
+  margin-top: 0px;
+}
+
+.img-responsive {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+}
+
+.slider-content-full {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.innerslider .container {
+  position: relative;
+}
+
+.about-slider-cont {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 5%;
+  width: 70%;
+  margin: 10% auto;
+  border: solid 1px #fff;
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .slider-content-full {
+    position: relative;
+  }
+  .about-slider-cont {
+    width: 100%;
+    padding: 1rem;
+  }
+}
+
+/* second section */
+.mb-zero .row {
+  margin-bottom: 10px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.abt-small {
+  padding: 12% 10%;
+}
+
+.abt-small h3 {
+  font-size: 20px;
+  padding-bottom: 40px;
+}
+
+.abt-small p {
+  font-weight: 300;
+  line-height: 26px;
+}
+
+.abt-small .more-btn {
+  float: left;
+}
+
+a {
+  color: #333333;
+  text-decoration: none;
+}
+.more-btn {
+  float: right;
+  text-transform: uppercase;
+  font-size: 14px;
+  opacity: 0.5;
+  color: #000;
+  border-bottom: solid 2px #000;
+  margin-top: 0px;
+}
+
+/* footer */
+
+.footer {
+  padding: 5rem 0;
+}
+
+.footer .footer-logo {
+  margin-bottom: 15px;
+  display: flex;
+}
+
+.footer-links li + li {
+  margin-top: 10px;
+}
+
+.footer p {
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 1.5;
+}
+.footer-links li::marker {
+  color: #fff200;
+}
+.footer h5 {
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.footer .news-box + .news-box {
+  padding-top: 20px;
+  margin-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+.footer a {
+  color: rgba(255, 255, 255, 0.7);
+  transition: ease-in-out all 0.3s;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: white;
+}
+
+.footer .copyright {
+  margin-top: 40px;
+  padding-top: 40px;
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.footer p {
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 1.5;
+}
+
+/* media queery */
